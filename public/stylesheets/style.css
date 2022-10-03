@@ -1,0 +1,132 @@
+
+
+body {
+  background-image: linear-gradient(to right top, #f458e0, #c045c4, #8f32a5, #612086, #350f66);
+  background-repeat: repeat;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #769ae7;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: rgb(245, 225, 244);
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 18pt;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover {
+	background-color: #111111;
+  }
+
+
+
+h1 {
+	background-repeat: no-repeat;
+  background-image: linear-gradient(to right top, #f458e0, #c045c4, #8f32a5, #612086, #350f66);
+
+	background-size: 50 px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: center;
+	color: white;
+
+	height: 128px;
+	padding-top: 5px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #808080;
+
+
+}
+h2 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: white; 
+}
+
+
+
+hr {
+	/* position: absolute;
+	top: 680px;
+	left: 250px; */
+	border-style:dashed; 
+	border-width: 1px;
+ 	border-color:rgb(30, 31, 29); 
+}
+
+
+#allPage {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #d1e0f1;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #e0b6db;
+    padding: 6px;
+	background-color: linear-gradient(to right top, #f458e0, #c045c4, #8f32a5, #612086, #350f66);
+}
+a {
+	text-decoration: none;
+	color: #d2eeee;
+}
+a:hover {
+	text-decoration:underline;
+	/*background-color: rgb(76, 240, 54);*/
+    font-size:larger
+}
+
+
+
+
+#text1 {
+	text-align: left;
+	color: #cbdce6;
+	background-color: linear-gradient(to right top, #ee71dd, #c045c4, #f0e2f3, #92abe2, #627bec);
+	font-size: 20pt;
+	padding-left: 30px;
+}
+#text2 {
+	padding-left: 30px;
+	font-size: 16pt;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#welcome {
+	font-size: 36pt;
+	color: rgb(201, 223, 236);
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: absolute;
+	top: 230px;
+	left: 690px;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    background-color:  rgb(248, 239, 248);
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+    height: 40px;
+	padding: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #808080;
+}
